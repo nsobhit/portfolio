@@ -1,0 +1,80 @@
+body {
+	overflow-x: hidden;
+}
+.site-header{
+	background-color: #343a40;
+  
+}
+
+.menu-area{
+	margin-left: auto;
+}
+
+.menu-bar{
+	padding: 40px;
+}
+
+.logo{
+	border-radius: 5px;
+}
+
+.site-header a {
+	text-decoration: none;
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+.site-header a:hover{
+	color: white;
+}
+
+@media (min-width: 768px)
+.d-md-inline-block {
+    display: inline-block!important;
+}
+
+.menu-link{
+	margin-left: 30px;
+}
+
+.contact-page{
+	padding: 50px;
+}
+
+.success-text{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 450;
+}
+
+.title-text{
+	margin-bottom: 20px;
+}
+.btn-logout{
+	margin-left: 20px;
+}
+
+.action-data img{
+     width:20px; 
+     height:20px;
+     padding-left:5px;
+}
+
+.page-header{
+	padding-bottom: 9px;
+	margin: 40px 0px 20px;
+	border-bottom: 1px solid #EEE;
+}
+
+.alert-danger {
+    color: #A94442;
+    background-color: #F2DEDE;
+    border-color: #EBCCD1;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
